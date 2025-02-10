@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Our Story - Boba Bear</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .story {
+                background: url('images/boba_background_story.webp') no-repeat center center/cover;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                height: 60vh;
+                color: white;
+                padding: 40px;
+                position: relative;
+            }
+
+            .story_words::before {
+                content: "";
+                display: block;
+                width: 100px;
+                height: 2px;
+                background-color: #120d07;
+                margin: 20px auto;
+            }
+            .story_words {
+                text-align: center;
+                color: black;
+                font-size: 1.3rem;
+                max-width: 800px;
+                margin: 20px auto;
+                line-height: 1.8;
+            }
+
+            .story_words p {
+                margin-bottom: 60px;
+            }
+        </style>
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Boba Bear.jpg" alt="Boba Bear Logo" class="logo-img">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="story">
+    </section>
+    <section class="drinks">
+        <h1>Our Story</h1>
+    </section>
+    <section class="story_words">
+        <p>
+            Boba Bear was founded in order to bring the joy of bubble tea to everyone in our local community.
+            Located in San Francisco, we started as a small passion project which has now grown into a local shop known for our high-quality, 
+            locally sourced ingredients and a commitment to sustainability. 
+        </p>
+        <p>
+            We take pride in crafting new-style teas and boba drinks that not only taste amazing but also 
+            mirror the traditional tastes of Chinese teas. From jasmine milk teas to adventurous new fruit tea flavors, 
+            our drinks are made with passion and love. 
+        </p>
+    </section>
+    <footer>
+        <p>&copy;2025 Boba Bear. All rights reserved.</p>
+    </footer>
+</body>
+</html>
